@@ -1,0 +1,16 @@
+{
+  "prettier.requireConfig": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.configFile": "./tslint.json",
+  "tslint.enable": true,
+  "tslint.run": "onType",
+  "tslint.alwaysShowStatus": true,
+  "tslint.jsEnable": false,
+  "tslint.exclude": "/**/*.spec.*",
+  "prettier.eslintIntegration": false,
+  "tslint.alwaysShowRuleFailuresAsWarnings": false,
+  "tslint.ignoreDefinitionFiles": false
+}

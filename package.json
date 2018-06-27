@@ -1,0 +1,33 @@
+{
+  "name": "sans-ui",
+  "version": "0.0.1",
+  "description": "Common Logic and State Management Tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && cpx ./src/**/*.html ./dist --verbose",
+    "test": "jest",
+    "docs": "typedoc --out ./docs ./src --exclude **/*.spec.ts --module commonjs --target es6"
+  },
+  "author": "Andrew Hamilton <andrew.hamilton@redspace.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "23.1.2",
+    "cpx": "1.5.0",
+    "jest": "23.2.0",
+    "ts-jest": "22.4.6",
+    "ts-loader": "4.4.2",
+    "ts-node": "7.0.0",
+    "tslint": "5.10.0",
+    "tslint-config-prettier": "1.13.0",
+    "tslint-consistent-codestyle": "1.13.1",
+    "tslint-eslint-rules": "5.3.1",
+    "tslint-misc-rules": "3.4.0",
+    "typedoc": "0.11.1",
+    "typescript": "2.9.2",
+    "webpack": "4.12.2",
+    "webpack-cli": "3.0.8"
+  },
+  "dependencies": {
+    "strongly-typed-events": "1.4.6"
+  }
+}

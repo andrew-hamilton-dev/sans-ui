@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Toggle Example</title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .photo-block {
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .photo-block--image {
+    width: 100%;
+  }
+
+  .photo-block--image.selected {
+    border: 5px solid black;
+  }
+
+  .photo-block--select {
+    width: 50%;
+  }
+</style>
+
+<body>
+  <h1 class="title">Toggle Example</h1>
+  <div class="photo-block">
+    <img class="photo-block--image" src="" alt="">
+    <button class="photo-block--select">Not Selected</button>
+  </div>
+  <script src="sans_ui.js"></script>
+  <script src="sans_ui_examples.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var toggleExample = new sans_ui_examples.ToggleExample;
+    }, false);
+  </script>
+</body>
+
+</html>

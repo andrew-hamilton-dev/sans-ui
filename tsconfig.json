@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./src/**/*.spec.ts"],
+  "compilerOptions": {
+    "allowJs": false,
+    "strict": true,
+    "outDir": "./dist/",
+    "rootDir": "./src",
+    "sourceMap": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "commonjs",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "removeComments": true
+  }
+}
